@@ -3,6 +3,7 @@ FROM oven/bun:1 AS build-stage
 
 WORKDIR /app
 
+
 COPY package.json bun.lock /app/
 
 COPY frontend/package.json /app/frontend/
